@@ -1,0 +1,68 @@
+{
+  "sites": [
+    {
+      "key": "bfzy",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "360zy",
+      "name": "360资源",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jszy",
+      "name": "极速资源",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "tyyszy",
+      "name": "天涯资源",
+      "type": 1,
+      "api": "https://tyyszy.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "dyttzy",
+      "name": "电影天堂资源",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "lzy",
+      "name": "量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "filterable": 1
+    }
+  ],
+  "lives": [
+    {
+      "key": "jx",
+      "name": "精选实测源(217频道)",
+      "type": 0,
+      "api": "http://192.168.3.11:8000/live.m3u",
+      "epg": "https://gitee.com/mytv-android/myepg/raw/master/output/epg.gz"
+    },
+    {
+      "key": "iptv",
+      "name": "完整备用源(3251线路)",
+      "type": 0,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/mytv-android/iptv-api/master/output/result.m3u",
+      "epg": "https://gitee.com/mytv-android/myepg/raw/master/output/epg.gz"
+    }
+  ]
+}
